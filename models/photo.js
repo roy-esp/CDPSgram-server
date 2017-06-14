@@ -9,7 +9,7 @@ photo_id: {
 
 */
 
-var photos_url = process.env.PHOTOS_URL || "http://localhost:8000"
+var photos_url = process.env.PHOTOS_URL || "http://10.1.3.12:8000"
 
 exports.photos = {
 	1: {
